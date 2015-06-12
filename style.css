@@ -1,0 +1,18 @@
+body {
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	color:#222;
+	font-size: 24px;
+	line-height: 1.5em;
+}
+
+.shown {
+	color:#222;
+}
+
+.hidden {
+	color:#fff;
+	-moz-transition: color .12s;
+	-webkit-transition: color .12s;
+	-o-transition: color .12s;
+	transition: color .12s;
+}
